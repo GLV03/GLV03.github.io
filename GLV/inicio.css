@@ -1,0 +1,15 @@
+body{
+    font-family: monospace;
+    background:  #3d91c9 12%;
+    font-size: 15px;
+}
+
+.github{
+    color: rgb(29, 26, 236);
+}
+
+p, h1{
+    padding-top: 22px;
+    color: antiquewhite;
+    text-align: center;
+}
