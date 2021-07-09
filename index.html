@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GLV Tools</title>
+    <title>GLV | newtask</title>
+    <link rel="stylesheet" href="/newtask.css">
     <link rel="stylesheet" href="/nav.css">
-    <link rel="stylesheet" href="/index.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
@@ -15,21 +15,29 @@
 <label for="check" class="checkbtn">
   <i class="fas fa-bars"></i>
 </label>
-<label class="logo">G.L.V   Tools</label>
+<label class="logo">G.L.V Tools</label>
 <ul>
-  <li><a class="a" href="/Newtasks/newtask.html">newtask "só no pc"</a></li>
-  <li><a class= "a" href="/Calculadora/index.html">Calculadora</a></li>
-  <li><a class="a"href="#"></a></li>
-  <li><a class="a"href="#"></a></li>
+  <li><a class="activ" href="#"></a></li>
+  <li><a href="#">Calculadora</a></li>
+  <li><a href="#"></a></li>
+  <li><a href="#"></a></li>
 </ul>
 </nav>
-<div class="texto">
-  <h1>Seja bem vindo!</h1>
-  <p>Este aqui meu pequeno site para postar meus projetos espero que goste, em cima você encontrara 2 projetos meus.
-  </p>
-  <p><strong>1 e uma Calculadora</strong> ele funciona no celular e no pc.</p>
-  <p><strong>2 e uma lista de tarefas</strong> só funciona no pc por enquanto.</p>
-  <p>caso queira ver as pastas do prejeto aqui esta o <a href="https://github.com/GLV03/GLV03.github.io">link</a>.
-</div>
+  <div class="wrapper">
+    <header>Todo-List</header>
+    <div class="inputField">
+      <input type="text" placeholder="item novo">
+      <button><i class="fas fa-plus"></i></button>
+    </div>
+    <ul class="todoList">
+    </ul>
+    <div class="footer">
+      <span>Você tem <span class="pendingTasks"></span> tarefas pendentes</span>
+      <button>limpar tudo</button>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+
 </body>
 </html>
