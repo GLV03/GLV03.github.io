@@ -56,3 +56,17 @@ button:hover{
     background-color: #bf75fc;
     color: black;
 }
+
+@media (max-width: 952px){
+    .calculator{
+        display:flexbox;
+        margin-top: 2rem;
+        position: relative;
+    }
+}
+@media (max-width: 858px){
+    .calculator{
+        margin-top: 2rem;
+        position: relative;
+    }
+}
