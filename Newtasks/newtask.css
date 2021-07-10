@@ -70,11 +70,11 @@ body{
   pointer-events: auto;
 }
 .wrapper .todoList{
-  max-height: 250px;
+  max-height: 550px;
   overflow-y: auto;
 }
 .todoList li{
-  position: flex;
+  position: relative;
   list-style: none;
   height: 45px;
   line-height: 45px;
@@ -86,7 +86,7 @@ body{
   overflow: hidden;
 }
 .todoList li .icon{
-  position: flex;
+  position: absolute;
   right: -45px;
   background: #e74c3c;
   width: 45px;
@@ -128,7 +128,12 @@ body{
 }
 
 @media (max-width: 952px){
-  button{
+  .todoList {
     position: relative;
-  }
+    background: white;
+    top: 2px;
+    height: 100px;
+    width: 280px;
+    left: 25px;
+    }
 }
