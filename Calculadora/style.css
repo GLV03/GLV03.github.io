@@ -61,12 +61,10 @@ button:hover{
     .calculator{
         display:flexbox;
         margin-top: 2rem;
-        position: relative;
     }
 }
 @media (max-width: 858px){
     .calculator{
         margin-top: 2rem;
-        position: relative;
     }
 }

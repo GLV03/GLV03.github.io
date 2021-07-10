@@ -1,14 +1,6 @@
-* {
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
-}
-
 nav {
 	background: #08001d;
-	height: 90px;
+	height: 80px;
 	width: 100%;
 }
 label.logo {
